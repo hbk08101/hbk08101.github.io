@@ -3,7 +3,7 @@
 > **AI Researcher** specializing in Change Captioning | B.S. in Life Sciences & EECS
 
 [GitHub](https://github.com/hbk08101) | [LinkedIn](https://www.linkedin.com/in/%ED%98%95%EB%B2%94-%EA%B9%80-328574410/)
-📧 081007a@gmail.com & hbk08101@gm.gist.ac.kr | 📍 Gwangju, South Korea
+📧 081007a@gmail.com / hbk08101@gm.gist.ac.kr | 📍 Gwangju, South Korea
 
 ---
 
@@ -53,6 +53,8 @@
 
 ## 📜 Certifications & Languages
 
-* **SQL Developer (SQLD)** | *Jun 19, 2026*
-* **Korean History Proficiency Test Level 1** (한국사능력검정시험 1급) | *Jun 5, 2026*
-* **TOEIC:** 870 | *Mar 15, 2026*
+| Certificate | Date |
+| :--- | :--- |
+| **SQL Developer (SQLD)** | *Jun 19, 2026* |
+| **Korean History Proficiency Test Level 1** (한국사능력검정시험 1급) | *Jun 5, 2026* |
+| **TOEIC:** 870 | *Mar 15, 2026* |
