@@ -33,6 +33,12 @@ title: "Kim Hyeongbeom | Portfolio & Blog"
 
 ---
 
+### 📚 Publications
+* **C3-Bench: A Context-Aware Change Captioning Benchmark**
+  * Co-author, Published at *ECCV 2026*
+
+---
+
 ### 💡 Interests & Tech Stack
 * **Programming Languages**: Python
 * **AI & Machine Learning**: AI Modeling, Change Captioning
@@ -40,6 +46,8 @@ title: "Kim Hyeongbeom | Portfolio & Blog"
 ---
 
 ### 📜 Certifications & Extra
+* **SQL Developer (SQLD)** (Jun 19, 2026)
+* **Korean History Proficiency Test Level 1 (한국사능력검정시험 1급)** (Jun 5, 2026)
 * **Language**: TOEIC 870 (Mar 15, 2026)
 
 ---
