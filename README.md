@@ -7,15 +7,7 @@ title: "Kim Hyeongbeom | Portfolio & Blog"
 > **AI Researcher** specializing in Change Captioning | B.S. in Life Sciences & EECS
 
 [GitHub](https://github.com/hbk08101) | [LinkedIn](https://www.linkedin.com/in/%ED%98%95%EB%B2%94-%EA%B9%80-328574410/)
-📧 081007a@gmail.com | 📞 010-7570-6635 | 📍 Gwangju, South Korea
-
----
-
-### 🧑‍💻 About Me
-* **Name**: Kim Hyeongbeom
-* **Date of Birth**: August 10, 2001
-* **Email**: 081007a@gmail.com
-* **Location**: Gwangju, South Korea
+📧 081007a@gmail.com & hbk08101@gm.gist.ac.kr | 📍 Gwangju, South Korea
 
 ---
 
