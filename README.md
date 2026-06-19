@@ -1,8 +1,5 @@
 # hbk08101.github.io
 ---
-layout: home
-title: "Kim Hyeongbeom | Portfolio & Blog"
----
 
 # 👋 Hello! I'm Kim Hyeongbeom.
 > **AI Researcher** specializing in Change Captioning | B.S. in Life Sciences & EECS
