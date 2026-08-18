@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메이플 모임 일정표</title>
+    <style>
+        /* 기본 리셋 및 폰트 설정 */
+        body { 
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            background-color: #f4f6f8; 
+            margin: 0; 
+            padding: 20px 10px; 
+            color: #333; 
+        }
+        
+        /* 메인 컨테이너 */
+        .container { 
+            max-width: 480px; 
+            margin: 0 auto; 
+            background: white; 
+            border-radius: 20px; 
+            box-shadow: 0 8px 24px rgba(0,0,0,0.06); 
+            overflow: hidden; 
+        }
+        
+        /* 헤더 */
+        .header { 
+            background: #4F46E5; 
+            color: white; 
+            padding: 24px 20px; 
+            text-align: center; 
+        }
+        .header h1 { margin: 0; font-size: 1.3rem; font-weight: 700; }
+        
+        /* 사전 결정 필요 항목 (강조 박스) */
+        .todo-box { 
+            background: #FFF7ED; 
+            border-left: 5px solid #EA580C; 
+            padding: 18px 20px; 
+            margin: 0; 
+            border-bottom: 1px solid #f3f4f6; 
+        }
+        .todo-box h2 { margin: 0 0 10px 0; font-size: 1.05rem; color: #9A3412; display: flex; align-items: center; gap: 6px; }
+        .todo-box ul { margin: 0; padding-left: 22px; color: #C2410C; font-weight: 600; font-size: 0.95rem; line-height: 1.5; }
+        
+        /* 타임라인 레이아웃 */
+        .timeline { padding: 24px 20px; }
+        .item { display: flex; margin-bottom: 28px; position: relative; }
+        .item:last-child { margin-bottom: 0; }
+        
+        /* 시간 */
+        .time { 
+            flex-shrink: 0; 
+            width: 55px; 
+            font-weight: 800; 
+            color: #4F46E5; 
+            font-size: 1.05rem; 
+            padding-top: 2px; 
+        }
+        
+        /* 내용 영역 */
+        .content { 
+            flex-grow: 1; 
+            padding-left: 16px; 
+            border-left: 2px solid #E5E7EB; 
+            padding-bottom: 4px; 
+        }
+        .title { font-size: 1.05rem; font-weight: 700; margin: 0 0 6px 0; color: #111827; line-height: 1.4; }
+        .desc { font-size: 0.9rem; color: #6B7280; margin: 0 0 12px 0; }
+        
+        /* 버튼(링크) 스타일링 */
+        .links { display: flex; flex-wrap: wrap; gap: 8px; }
+        a.btn { 
+            text-decoration: none; 
+            font-size: 0.85rem; 
+            padding: 8px 14px; 
+            border-radius: 8px; 
+            display: inline-flex; 
+            align-items: center; 
+            font-weight: 600; 
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .btn:active { transform: scale(0.96); } /* 터치 피드백 */
+        
+        .btn-map { background: #E0E7FF; color: #3730A3; border: 1px solid #C7D2FE; }
+        .btn-rsv { background: #FCE7F3; color: #9D174D; border: 1px solid #FBCFE8; }
+        .btn-web { background: #F3F4F6; color: #374151; border: 1px solid #E5E7EB; }
+        
+        /* 이모지 간격 */
+        .emoji { margin-right: 4px; font-size: 1rem; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>🍄 메이플 모임 일정표 🍄</h1>
+    </div>
+
+    <div class="timeline">
+        <!-- 11:00 -->
+        <div class="item">
+            <div class="time">10:30</div>
+            <div class="content">
+                <p class="title">신논현역 집결 & 하이디라오 웨이팅 🙋(40min)</p>
+                <p class="desc">웨이팅 걸어두고 근처 PC방에서 증바람 한두 판!</p>
+                <div class="links">
+                    <a class="btn btn-map" href="https://place.map.kakao.com/790701882" target="_blank"><span class="emoji">📍</span>포탈 PC</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1422890861" target="_blank"><span class="emoji">📍</span>레드포스아레나</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/58490132" target="_blank"><span class="emoji">📍</span>메이플아지트</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 11:40 -->
+        <div class="item">
+            <div class="time">11:10</div>
+            <div class="content">
+                <p class="title">하이디라오 서초지점 입장 🍲(110min)</p>
+                <div class="links">
+                    <a class="btn btn-rsv" href="https://app.catchtable.co.kr/ct/shop/haidilao_seocho" target="_blank"><span class="emoji">🛎️</span>캐치테이블</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1372079546" target="_blank"><span class="emoji">📍</span>카카오맵</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 13:00 -->
+        <div class="item">
+            <div class="time">13:00</div>
+            <div class="content">
+                <p class="title">방탈출 🏃(70min)</p>
+                <p class="desc">이웃집 또털어</p>
+                <div class="links">
+                    <a class="btn btn-web" href="https://place.map.kakao.com/841734382" target="_blank"><span class="emoji">🔐</span>플레이더월드</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 14:10 -->
+        <div class="item">
+            <div class="time">14:10</div>
+            <div class="content">
+                <p class="title">보드게임카페 🎴(TBD)</p>
+                <p class="desc">빈 곳 탐색 (후보 리스트)</p>
+                <div class="links">
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1390599294" target="_blank"><span class="emoji">🎲</span>다이스타운</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1211948676" target="_blank"><span class="emoji">🎲</span>레드버튼</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1159157170" target="_blank"><span class="emoji">🎲</span>홈즈앤루팡</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1143207364" target="_blank"><span class="emoji">🎲</span>데블다이스 강남시티</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/187496328" target="_blank"><span class="emoji">🎲</span>데블다이스 강남대로</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/897071174" target="_blank"><span class="emoji">🎲</span>데블다이스 강남점</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 16:00 -->
+        <div class="item">
+            <div class="time">16:00</div>
+            <div class="content">
+                <p class="title">PC방 배그 타임 🔫</p>
+                <p class="desc">아무래도 치킨 먹어야지 🍗</p>
+                <div class="links">
+                    <a class="btn btn-map" href="https://place.map.kakao.com/790701882" target="_blank"><span class="emoji">📍</span>포탈 PC</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/1422890861" target="_blank"><span class="emoji">📍</span>레드포스아레나</a>
+                    <a class="btn btn-map" href="https://place.map.kakao.com/58490132" target="_blank"><span class="emoji">📍</span>메이플아지트</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 17:00 -->
+        <div class="item">
+            <div class="time">17:00</div>
+            <div class="content">
+                <p class="title">1차 야키토리 🍥</p>
+                <div class="links">
+                    <a class="btn btn-map" href="https://place.map.kakao.com/249851237" target="_blank"><span class="emoji">📍</span>야키토리 나루토 강남</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 19:00 -->
+        <div class="item">
+            <div class="time">19:00</div>
+            <div class="content">
+                <p class="title">묻고 더블로 가! 👆</p>
+                <p class="desc">갈 사람만 가!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="todo-box">
+        <h2><span class="emoji">🚨</span>다음날 번외</h2>
+        <ul>
+            <li>10:00 영원중 KBS한국어능력시험 🧑‍🏫</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
