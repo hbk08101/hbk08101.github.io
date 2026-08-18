@@ -24,6 +24,11 @@
 
 ## 🔬 Experience
 
+### **Intern** | AI Dept. @ KJ Bank
+*Feb 2026 - Aug 2026*
+* Conducted market research on domestic AI transformation.
+* Designed PoC and MVP of several corporate AI hackathon ideas.
+
 ### **Research Staff** | ACSL Lab @ GIST
 *Aug 2025 – Present*
 * Conducted research on Change Captioning model benchmarks.
@@ -57,4 +62,5 @@
 | :--- | :--- |
 | **SQL Developer (SQLD)** | *Jun 19, 2026* |
 | **Korean History Proficiency Test Level 1** (한국사능력검정시험 1급) | *Jun 5, 2026* |
+| **TEPS:** 407 | *Jun 13, 2026* |
 | **TOEIC:** 870 | *Mar 15, 2026* |
